@@ -1,0 +1,59 @@
+body {
+    background: #233b55
+}
+
+.board-section {
+    position: relative;
+    width: 700px;
+    height: 900px;
+    background: white;
+    border-radius: 20px;
+    margin:6% auto;
+    padding: 5px
+}
+
+.logo {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header {
+    text-align: center;
+    color: dodgerblue;
+}
+
+.leaderboard {
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 3px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+.rate-content {
+    text-align: center;
+}
+
+.rate-div{
+    margin: auto;
+    width: 60%;
+    border: 3px;
+    padding: 10px;
+}
+a{
+	text-decoration: none;
+}    
+
+    
+    
+    
+    
